@@ -2,10 +2,9 @@ Student Dropout and Academic Success Prediction
 Overview
 This project aims to predict students' dropout and academic success using machine learning techniques. It leverages various input features to build predictive models.
 
-Table of Contents
+# Table of Contents
 Project Description
 Data
-Machine Learning Models
 Getting Started
 Usage
 Results
@@ -15,31 +14,30 @@ Project Description
 In this project, we seek to tackle the important problem of predicting students' academic success and identifying potential dropouts. By employing machine learning algorithms, we can analyze various input features, including demographic information, academic history, and more, to make predictions.
 
 Data
-Data Sources
-Describe where the data is sourced from, whether it's publicly available, or collected specifically for this project.
+# Example Data Sources
+Data source gotten from https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
 Data Preprocessing
-Discuss how the data is cleaned, transformed, and prepared for model training.
+Data was pre processed using Pandas.
 Machine Learning Models
-Explain the machine learning algorithms and techniques used for this project.
-Include information on model selection, hyperparameter tuning, and evaluation metrics.
+skitlearn and Synthetic Minority Oversampling Technique were used
+
 Getting Started
-Prerequisites: List the software, libraries, and hardware requirements needed to run this project.
+# Prerequisites:
+Python3 jupyter Notebook
 bash
 Copy code
 # Example installation instructions
 pip install -r requirements.txt
-Usage
-Provide instructions on how to use the project and make predictions.
-Include code examples if applicable.
-python
-Copy code
-# Example usage code
-python predict_students.py
-Results
-Summarize the results obtained from the machine learning models.
-Discuss any insights gained from the predictions.
-Contributing
-Explain how others can contribute to this project.
+# Usage Jupyter Notebook
+Execute this to select your desired classifier
+'''SelectedClassifier = input("Select your classifier, KNN-Classifier, RandomForest, Logistic-Regression, and Decision-Tree")
+print(SelectedClassifier)'''
+# Example usage in .py 
+python3 Dropout_Classification_ML_Project.py
+# Results
+Random forest classiifer outperforms becasue of its ability to prune and its Ensemble Method.
+# Contributing
+Please feel free to contribute by making pull requests.
 Include guidelines for reporting issues and submitting pull requests.
-License
+# License MIT
 Specify the project's license and any terms of use.
