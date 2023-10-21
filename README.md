@@ -30,8 +30,10 @@ Copy code
 pip install -r requirements.txt
 # Usage Jupyter Notebook
 Execute this to select your desired classifier
-'''SelectedClassifier = input("Select your classifier, KNN-Classifier, RandomForest, Logistic-Regression, and Decision-Tree")
-print(SelectedClassifier)'''
+```
+SelectedClassifier = input("Select your classifier, KNN-Classifier, RandomForest, Logistic-Regression, and Decision-Tree")
+print(SelectedClassifier)
+```
 # Example usage in .py 
 python3 Dropout_Classification_ML_Project.py
 # Results
